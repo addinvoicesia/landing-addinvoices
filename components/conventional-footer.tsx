@@ -71,12 +71,12 @@ export function ConventionalFooter() {
 
         <div className="text-center text-gray-400 text-sm border-t border-gray-700 pt-8">
           © 2025 AddInvoices — Powered by ADDSTRATEGIC |{" "}
-          <a href="#" className="hover:text-white transition-colors">
+          <a href="/privacy" className="hover:text-white transition-colors">
             Privacy Policy
           </a>{" "}
           |{" "}
-          <a href="#" className="hover:text-white transition-colors">
-            Terms of Use
+          <a href="/terms" className="hover:text-white transition-colors">
+            Terms of Service
           </a>
         </div>
       </div>
