@@ -312,7 +312,6 @@ export default function InvoiceGeneratorPage() {
         onLoad={() => setIsJSPDFLoaded(true)}
       />
 
-
       <main className="relative z-10 pt-28 pb-48 md:pb-20 px-4 md:px-6 max-w-7xl mx-auto">
         {/* Breadcrumb */}
         <nav className="flex items-center space-x-2 text-xs md:text-sm text-ad-secondary mb-8">
@@ -718,25 +717,6 @@ export default function InvoiceGeneratorPage() {
               </div>
             </div>
 
-<<<<<<< HEAD:app/tools/invoice-generator/page.tsx
-            {/* Mobile Actions (Sticky Bottom) */}
-            <div className="fixed bottom-0 left-0 right-0 p-4 bg-[#0a0a0a]/80 backdrop-blur-xl border-t border-white/10 z-[100] flex lg:hidden gap-3 px-6 pb-8 md:pb-6 shadow-2xl animate-in fade-in slide-in-from-bottom duration-500">
-               <button 
-                  onClick={scrollToPreview}
-                  className="flex-1 py-3.5 bg-white/5 hover:bg-white/10 border border-white/10 text-white rounded-xl font-bold flex items-center justify-center transition-all text-xs active:scale-95 [color-scheme:dark]"
-               >
-                 <Eye className="w-4 h-4 mr-2 text-blue-400" />
-                 Preview
-               </button>
-               <button 
-                  onClick={() => setIsModalOpen(true)}
-                  disabled={!isJSPDFLoaded}
-                  className="flex-1 py-3.5 btn-ad-primary rounded-xl font-bold flex items-center justify-center shadow-lg transition-all disabled:opacity-50 text-xs active:scale-95"
-               >
-                 <Download className="w-4 h-4 mr-2" />
-                 Download
-               </button>
-=======
             {/* Mobile Actions */}
             <div className="flex lg:hidden flex-col gap-3">
               <button
@@ -754,7 +734,6 @@ export default function InvoiceGeneratorPage() {
                 <Download className="w-5 h-5 mr-3" />
                 Download PDF
               </button>
->>>>>>> 8906b0c (add blog and make multilingual):frontend/src/app/[locale]/tools/invoice-generator/page.tsx
             </div>
           </div>
 
