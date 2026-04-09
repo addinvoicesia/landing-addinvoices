@@ -3,10 +3,15 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
+import {
+  getMessages,
+  getTranslations,
+  setRequestLocale,
+} from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing, type Locale } from "@/i18n/routing";
 import Navbar from "@/components/navbar";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 const inter = Inter({ subsets: ["latin"] });
 const FALLBACK_BASE_URL = "https://addinvoicesia.com";
@@ -42,7 +47,9 @@ export async function generateMetadata(props: {
     metadataBase: new URL(baseUrl),
     title: t("title"),
     description: t("description"),
-    keywords: t("keywords").split(",").map((keyword) => keyword.trim()),
+    keywords: t("keywords")
+      .split(",")
+      .map((keyword) => keyword.trim()),
     generator: "ADDSTRATEGIC",
     applicationName: "AddInvoices",
     authors: [
@@ -113,6 +120,7 @@ export default async function RootLayout({
   return (
     <html lang={locale} className={`${inter.className} dark`}>
       <body className="dark">
+        <GoogleTagManager gtmId="GTM-TF7K992S" />
         <NextIntlClientProvider messages={messages}>
           <Navbar />
           {children}
