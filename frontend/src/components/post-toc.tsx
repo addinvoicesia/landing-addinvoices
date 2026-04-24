@@ -151,7 +151,7 @@ const TOC = ({
               href={`#${id}`}
               onClick={(event) => handleLinkClick(event, id)}
               style={{
-                color: activeLink === id ? "#15803d" : "#6b7280",
+                color: activeLink === id ? "#2563eb" : "#6b7280",
               }}
             >
               {text}

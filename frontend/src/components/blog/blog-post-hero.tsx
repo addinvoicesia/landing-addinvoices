@@ -21,7 +21,7 @@ export function BlogPostHero({
   return (
     <div className="overflow-hidden relative text-white text-center mb-12 bg-[#013645]">
       <div className="px-5 sm:px-3 mx-auto md:max-w-[720px] sm:max-w-[540px]">
-        <div className="py-16">
+        <div className="pt-24 pb-16">
           <h1 className="font-roboto text-2xl !leading-[1.4] font-semibold uppercase sm:text-4xl mb-9">
             {post.title}
           </h1>

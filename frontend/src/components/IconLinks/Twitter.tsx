@@ -11,7 +11,12 @@ const Twitter = () => {
       target="_blank"
     >
       <span className="sr-only">share on twitter</span>
-      <Image src="/icons/x-social-media.svg" alt="" width={30} height={30} />
+      <Image
+        src="/icons/x-icon-white.png"
+        alt="share on twitter"
+        width={30}
+        height={30}
+      />
     </a>
   );
 };
