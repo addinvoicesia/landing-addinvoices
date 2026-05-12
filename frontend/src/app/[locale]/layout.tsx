@@ -63,9 +63,9 @@ export async function generateMetadata(props: {
       },
     ],
     icons: {
-      icon: "/addstrategic-logo-blanco.png",
-      shortcut: "/addstrategic-logo-blanco.png",
-      apple: "/addstrategic-logo-blanco.png",
+      icon: "/logoaddinvoicesicon.png",
+      shortcut: "/logoaddinvoicesicon.png",
+      apple: "/logoaddinvoicesicon.png",
     },
     alternates: {
       canonical: canonicalPath,
