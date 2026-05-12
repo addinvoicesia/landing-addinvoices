@@ -301,10 +301,10 @@ export default function PrivacyPage() {
                 to certain processing or withdraw consent. To exercise these
                 rights, contact us at{" "}
                 <a
-                  href="mailto:privacy@addinvoicesai.com"
+                  href="mailto:addinvoicesia@gmail.com"
                   className="text-blue-500 hover:underline"
                 >
-                  privacy@addinvoicesai.com
+                  addinvoicesia@gmail.com
                 </a>
                 .
               </p>
@@ -380,28 +380,28 @@ export default function PrivacyPage() {
                 <li>
                   Privacy inquiries:{" "}
                   <a
-                    href="mailto:privacy@addinvoicesai.com"
+                    href="mailto:addinvoicesia@gmail.com"
                     className="text-blue-500 hover:underline"
                   >
-                    privacy@addinvoicesai.com
+                    addinvoicesia@gmail.com
                   </a>
                 </li>
                 <li>
                   Legal inquiries:{" "}
                   <a
-                    href="mailto:legal@addinvoicesai.com"
+                    href="mailto:addinvoicesia@gmail.com"
                     className="text-blue-500 hover:underline"
                   >
-                    legal@addinvoicesai.com
+                    addinvoicesia@gmail.com
                   </a>
                 </li>
                 <li>
                   Support:{" "}
                   <a
-                    href="mailto:support@addinvoicesai.com"
+                    href="mailto:addinvoicesia@gmail.com"
                     className="text-blue-500 hover:underline"
                   >
-                    support@addinvoicesai.com
+                    addinvoicesia@gmail.com
                   </a>
                 </li>
                 <li>

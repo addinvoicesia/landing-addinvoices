@@ -117,35 +117,32 @@
       "bottomCta": "Join the app →",
       "subscriptionPlans": [
         {
-          "name": "Core",
+          "name": "Minimum",
           "monthlyPrice": 12,
           "yearlyPrice": 120,
           "description": "Perfect for freelancers & small teams",
           "popular": false,
-          "cta": "Get Core",
+          "cta": "Get Minimum",
           "features": [
-            "Unlimited invoices",
-            "Online payments (Stripe, PayPal)",
-            "Payment reminders",
-            "Custom templates",
-            "Web & mobile access",
-            "Client management",
-            "Invoice tracking (draft, sent, paid)"
+            "Manage invoices, estimates, expenses & clients",
+            "Voice creation (25 sessions/month)",
+            "Dashboard & reports",
+            "PDF generation & email delivery",
+            "Payment tracking"
           ]
         },
         {
-          "name": "AI Pro",
-          "monthlyPrice": 20,
-          "yearlyPrice": 179.99,
+          "name": "Essential",
+          "monthlyPrice": 49.99,
+          "yearlyPrice": 499.99,
           "description": "For companies & teams",
           "popular": true,
-          "cta": "Get AI Pro",
+          "cta": "Get Essential",
           "features": [
-            "Everything in Core",
-            "Automated workflows with AI",
-            "AI assistant to manage invoices, clients, expenses, and more",
-            "Voice generation for invoices, clients, expenses, and more",
-            "Premium templates"
+            "Everything in Minimum",
+            "Unlimited voice sessions",
+            "AI bookkeeper conversational assistant",
+            "Advances module"
           ]
         }
       ],
@@ -156,12 +153,8 @@
         "highlight": "Only for first 100 users!",
         "cta": "Get Lifetime Access",
         "features": [
-          "Everything in AI Pro",
-          "Faster updates",
-          "Priority support",
-          "Early access to new features",
-          "Lifetime updates",
-          "No monthly fees"
+          "Everything in Essential",
+          "One-time payment, lifetime access"
         ]
       }
     },

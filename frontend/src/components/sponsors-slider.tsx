@@ -12,6 +12,8 @@ const SPONSOR_LOGOS = [
   "/L8.png",
   "/L9.png",
   "/L10.png",
+  "/L11.png",
+  "/L12.png",
 ];
 
 export type SponsorsSliderProps = {

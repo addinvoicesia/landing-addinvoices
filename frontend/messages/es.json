@@ -117,35 +117,32 @@
       "bottomCta": "Entrar en la app →",
       "subscriptionPlans": [
         {
-          "name": "Core",
+          "name": "Minimum",
           "monthlyPrice": 12,
           "yearlyPrice": 120,
           "description": "Ideal para freelancers y equipos pequeños",
           "popular": false,
-          "cta": "Elegir Core",
+          "cta": "Elegir Minimum",
           "features": [
-            "Facturas ilimitadas",
-            "Pagos en línea (Stripe, PayPal)",
-            "Recordatorios de pago",
-            "Plantillas personalizadas",
-            "Acceso web y móvil",
-            "Gestión de clientes",
-            "Seguimiento de facturas (borrador, enviada, pagada)"
+            "Gestionar facturas, presupuestos, gastos y clientes",
+            "Creación por voz (25 sesiones/mes)",
+            "Panel de control e informes",
+            "Generación de PDF y envío por correo",
+            "Seguimiento de pagos"
           ]
         },
         {
-          "name": "AI Pro",
-          "monthlyPrice": 20,
-          "yearlyPrice": 179.99,
+          "name": "Essential",
+          "monthlyPrice": 49.99,
+          "yearlyPrice": 499.99,
           "description": "Para empresas y equipos",
           "popular": true,
-          "cta": "Elegir AI Pro",
+          "cta": "Elegir Essential",
           "features": [
-            "Todo lo de Core",
-            "Flujos automatizados con IA",
-            "Asistente de IA para facturas, clientes, gastos y más",
-            "Generación por voz para facturas, clientes, gastos y más",
-            "Plantillas premium"
+            "Todo lo de Minimum",
+            "Sesiones de voz ilimitadas",
+            "Asistente conversacional contable por IA",
+            "Módulo de adelantos"
           ]
         }
       ],
@@ -156,12 +153,8 @@
         "highlight": "¡Solo para los primeros 100 usuarios!",
         "cta": "Obtener acceso Lifetime",
         "features": [
-          "Todo lo de AI Pro",
-          "Actualizaciones más rápidas",
-          "Soporte prioritario",
-          "Acceso anticipado a nuevas funciones",
-          "Actualizaciones de por vida",
-          "Sin cuotas mensuales"
+          "Todo lo de Essential",
+          "Pago único, acceso de por vida"
         ]
       }
     },

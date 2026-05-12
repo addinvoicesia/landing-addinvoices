@@ -231,10 +231,10 @@ export default function TermsPage() {
                 credentials and for all activity occurring under your account.
                 You must notify us immediately at{" "}
                 <a
-                  href="mailto:legal@addinvoicesai.com"
+                  href="mailto:addinvoicesia@gmail.com"
                   className="text-blue-500 hover:underline"
                 >
-                  legal@addinvoicesai.com
+                  addinvoicesia@gmail.com
                 </a>{" "}
                 upon becoming aware of any unauthorized access or security
                 breach.
@@ -648,19 +648,19 @@ export default function TermsPage() {
                 <li>
                   Legal inquiries:{" "}
                   <a
-                    href="mailto:legal@addinvoicesai.com"
+                    href="mailto:addinvoicesia@gmail.com"
                     className="text-blue-500 hover:underline"
                   >
-                    legal@addinvoicesai.com
+                    addinvoicesia@gmail.com
                   </a>
                 </li>
                 <li>
                   Support:{" "}
                   <a
-                    href="mailto:support@addinvoicesai.com"
+                    href="mailto:addinvoicesia@gmail.com"
                     className="text-blue-500 hover:underline"
                   >
-                    support@addinvoicesai.com
+                    addinvoicesia@gmail.com
                   </a>
                 </li>
                 <li>
