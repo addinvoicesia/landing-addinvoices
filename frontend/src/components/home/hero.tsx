@@ -47,7 +47,7 @@ export default function Hero({
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
+              transition={{ duration: 0.3 }}
               className="mb-8"
             >
               <Badge
@@ -62,7 +62,7 @@ export default function Hero({
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.1 }}
+              transition={{ duration: 0.3, delay: 0.05 }}
               className="mb-8"
             >
               <h1
@@ -76,7 +76,7 @@ export default function Hero({
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
+              transition={{ duration: 0.3, delay: 0.1 }}
               className="mx-auto mb-12 max-w-2xl text-lg text-muted-foreground"
             >
               {description}
@@ -85,7 +85,7 @@ export default function Hero({
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.3 }}
+              transition={{ duration: 0.3, delay: 0.15 }}
               className="flex flex-col sm:flex-row items-center justify-center gap-4"
             >
               <a
@@ -106,7 +106,7 @@ export default function Hero({
             <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ duration: 0.5, delay: 0.5 }}
+              transition={{ duration: 0.3, delay: 0.2 }}
               className="mt-6 text-sm text-muted-foreground text-center"
             >
               {seoTagline}
@@ -115,7 +115,7 @@ export default function Hero({
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.6 }}
+              transition={{ duration: 0.3, delay: 0.25 }}
             >
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
                 <img

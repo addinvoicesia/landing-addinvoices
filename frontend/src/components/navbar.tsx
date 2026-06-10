@@ -16,6 +16,7 @@ export default function Navbar() {
     { name: t("Navbar.links.tools"), href: "/tools" },
     { name: t("Navbar.links.pricing"), href: "/#pricing" },
     { name: t("Navbar.links.blog"), href: "/blog" },
+    { name: t("Navbar.links.presentation"), href: "/presentacion" },
   ];
 
   const [isScrolled, setIsScrolled] = useState(false);
@@ -71,7 +72,7 @@ export default function Navbar() {
   return (
     <>
       <header
-        className={`fixed top-4 left-1/2 -translate-x-1/2 z-[9999] hidden w-full flex-row items-center justify-between rounded-full bg-ad-navbar/80 md:flex backdrop-blur-sm border border-border/50 shadow-lg transition-all duration-300 ${
+        className={`fixed top-4 left-1/2 -translate-x-1/2 z-[9999] hidden w-full flex-row items-center justify-between rounded-full bg-ad-navbar/90 md:flex backdrop-blur-md border border-border/50 shadow-lg transition-all duration-300 ${
           isScrolled ? "max-w-3xl px-2" : "max-w-5xl px-4"
         } py-2`}
       >
@@ -92,11 +93,7 @@ export default function Navbar() {
             }}
           />
         </Link>
-        <div className="text-white font-bold text-lg tracking-wide absolute left-18">
-          {t("Navbar.brandShort")}
-        </div>
-
-        <div className="absolute inset-0 hidden flex-1 flex-row items-center justify-center space-x-2 text-sm font-medium text-ad-secondary md:flex md:space-x-2 z-10">
+        <div className="hidden flex-1 flex-row items-center justify-center space-x-2 text-sm font-medium text-ad-secondary md:flex md:space-x-2 z-10">
           {navLinks.map((link) => (
             <Link
               key={link.name}

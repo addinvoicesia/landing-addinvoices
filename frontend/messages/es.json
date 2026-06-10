@@ -23,7 +23,8 @@
         "tools": "Herramientas",
         "pricing": "Precios",
         "blog": "Blog",
-        "faq": "FAQ"
+        "faq": "FAQ",
+        "presentation": "Presentation"
       }
     },
     "Hero": {
@@ -365,5 +366,43 @@
     },
     "brandName": "ADDINVOICES",
     "brandLogoAlt": "Logo de ADDINVOICES"
+  },
+  "Presentation": {
+    "title1": "Descubre cómo",
+    "title2": "transforma tu gestión",
+    "subtitle": "La solución definitiva con Inteligencia Artificial para automatizar tus facturas y potenciar tus ventas en minutos.",
+    "videoPlaceholder": "Espacio reservado para tu vídeo (16:9)",
+    "ctaPrimary": "Comenzar ahora gratis",
+    "q1Title": "¿Qué es?",
+    "q1Desc": "AddInvoices es tu asistente financiero potenciado por IA. Extrae, organiza y gestiona los datos de tus facturas sin intervención manual, ahorrándote horas de trabajo tedioso.",
+    "q2Title": "¿Cómo funciona?",
+    "q2Desc": "Sube tus documentos mediante foto, PDF o correo. Nuestra tecnología procesa al instante la información, categoriza los gastos y te brinda reportes visuales claros y listos para usar.",
+    "q3Title": "Beneficios",
+    "q3Desc": "Aumenta tu productividad, reduce errores humanos al 0% y mantén tus finanzas seguras y accesibles en la nube desde cualquier dispositivo, 24/7.",
+    "mockupsTitle": "Una interfaz pensada para ti",
+    "mockupsDesc": "Descubre cómo luce AddInvoices desde adentro. Diseñado para ser rápido, intuitivo y fácil de usar en cualquier dispositivo.",
+    "finalCtaTitle": "¿Listo para llevar tu contabilidad al siguiente nivel?",
+    "finalCtaDesc": "Únete a cientos de empresas que ya automatizan su facturación.",
+    "finalCtaBtn": "Crear mi cuenta gratis",
+    "modulesTitle": "Conoce los Módulos de AddInvoices",
+    "modulesDesc": "Todo lo que necesitas para operar tu negocio, en un solo lugar.",
+    "modules": [
+      { "title": "📊 Dashboard", "desc": "Control rápido del estado financiero y operativo de tu negocio." },
+      { "title": "🧾 Invoices", "desc": "Núcleo financiero principal. Crea, edita y envía facturas profesionales al instante." },
+      { "title": "📑 Estimates", "desc": "Formaliza acuerdos y acelera cierres comerciales con propuestas y firmas digitales." },
+      { "title": "📜 Contracts", "desc": "Generación de contratos y acuerdos digitales para la protección y profesionalización de tu negocio." },
+      { "title": "🔁 Subscriptions", "desc": "Pagos recurrentes y recordatorios automáticos ideales para servicios periódicos." },
+      { "title": "💳 Payments", "desc": "Registro de pagos y seguimiento completo de tu flujo de dinero." },
+      { "title": "💸 Expenses", "desc": "Registro de gastos, escaneo de recibos y categorización automática." },
+      { "title": "👥 Clients", "desc": "Gestión de clientes, historial de interacción y centralización de información." },
+      { "title": "📦 Catalog", "desc": "Catálogo de productos y servicios reutilizables para estandarizar tus operaciones." },
+      { "title": "🔔 Reminders", "desc": "Recordatorios automáticos para mejorar la cobranza y reducir olvidos." },
+      { "title": "📸 Advances", "desc": "Documentación de trabajo con fotos y notas, generando reportes profesionales para el cliente." },
+      { "title": "💳 Tap to Pay", "desc": "Cobro instantáneo en sitio. Procesa tarjetas o pagos móviles en segundos sin terminales adicionales." },
+      { "title": "🗣️ Traductor", "desc": "Elimina barreras de idioma con traducción en vivo cara a cara y chat asíncrono para tus negociaciones." },
+      { "title": "⭐ Reviews", "desc": "Filtración inteligente de reseñas y solicitudes automáticas para mantener una calificación de 5 estrellas en Google." },
+      { "title": "🪪 Tarjetas Digitales", "desc": "Generador de tarjetas de presentación digitales con el logo de tu empresa, listas para compartir." },
+      { "title": "💵 Propinas", "desc": "Recibe propinas y pagos extra de manera sencilla al finalizar el cobro de tus servicios." }
+    ]
   }
 }

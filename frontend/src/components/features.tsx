@@ -57,7 +57,7 @@ export default function Features({
         ref={ref}
         initial={{ opacity: 0, y: 50 }}
         animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
-        transition={{ duration: 0.5, delay: 0 }}
+        transition={{ duration: 0.3, delay: 0 }}
         className="container mx-auto flex flex-col items-center gap-6 sm:gap-12"
       >
         <h2
@@ -78,7 +78,7 @@ export default function Features({
               ref={ref}
               initial={{ opacity: 0, y: 50 }}
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
-              transition={{ duration: 0.5, delay: 0.5 }}
+              transition={{ duration: 0.3, delay: 0.1 }}
               style={{ transition: "all 0s ease-in-out" }}
             >
               <div className="flex flex-col gap-4">
@@ -103,7 +103,7 @@ export default function Features({
               ref={ref}
               initial={{ opacity: 0, y: 50 }}
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
-              transition={{ duration: 0.5, delay: 0.5 }}
+              transition={{ duration: 0.3, delay: 0.1 }}
               style={{ transition: "all 0s ease-in-out" }}
             >
               <div className="flex flex-col gap-4">
@@ -142,7 +142,7 @@ export default function Features({
                     </Suspense>
                   </div>
                 </div>
-                <div className="absolute top-1/2 w-full translate-y-20 scale-x-[1.2] opacity-70 transition-all duration-1000 group-hover:translate-y-8 group-hover:opacity-100">
+                <div className="absolute top-1/2 w-full translate-y-20 scale-x-[1.2] opacity-70 transition-all duration-500 group-hover:translate-y-8 group-hover:opacity-100">
                   <div className="from-primary/50 to-primary/0 absolute left-1/2 h-[256px] w-[60%] -translate-x-1/2 scale-[2.5] rounded-[50%] bg-radial from-10% to-60% opacity-20 sm:h-[512px] dark:opacity-100"></div>
                   <div className="from-primary/30 to-primary/0 absolute left-1/2 h-[128px] w-[40%] -translate-x-1/2 scale-200 rounded-[50%] bg-radial from-10% to-60% opacity-20 sm:h-[256px] dark:opacity-100"></div>
                 </div>
@@ -153,7 +153,7 @@ export default function Features({
               className="group border-secondary/40 text-card-foreground relative col-span-12 flex flex-col overflow-hidden rounded-xl border-2 p-4 md:p-6 shadow-xl transition-all ease-in-out md:col-span-6 xl:col-span-6 "
               initial={{ opacity: 0, y: 50 }}
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
-              transition={{ duration: 0.5, delay: 1.0 }}
+              transition={{ duration: 0.3, delay: 0.2 }}
               style={{ transition: "all 0s ease-in-out" }}
             >
               <div className="flex flex-col gap-4">
@@ -177,7 +177,7 @@ export default function Features({
               className="group border-secondary/40 text-card-foreground relative col-span-12 flex flex-col overflow-hidden rounded-xl border-2 p-4 md:p-6 shadow-xl transition-all ease-in-out md:col-span-6 xl:col-span-6 xl:col-start-7"
               initial={{ opacity: 0, y: 50 }}
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
-              transition={{ duration: 0.5, delay: 1.0 }}
+              transition={{ duration: 0.3, delay: 0.2 }}
               style={{ transition: "all 0s ease-in-out" }}
             >
               <div className="flex flex-col gap-4">

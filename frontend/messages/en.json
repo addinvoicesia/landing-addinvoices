@@ -23,7 +23,8 @@
         "tools": "Tools",
         "pricing": "Pricing",
         "blog": "Blog",
-        "faq": "FAQ"
+        "faq": "FAQ",
+        "presentation": "Presentation"
       }
     },
     "Hero": {
@@ -365,5 +366,43 @@
     },
     "brandName": "ADDINVOICES",
     "brandLogoAlt": "ADDINVOICES logo"
+  },
+  "Presentation": {
+    "title1": "Discover how",
+    "title2": "transforms your management",
+    "subtitle": "The ultimate AI-powered solution to automate your invoices and boost your sales in minutes.",
+    "videoPlaceholder": "Space reserved for your video (16:9)",
+    "ctaPrimary": "Start now for free",
+    "q1Title": "What is it?",
+    "q1Desc": "AddInvoices is your AI-powered financial assistant. It extracts, organizes, and manages your invoice data without manual intervention, saving you hours of tedious work.",
+    "q2Title": "How does it work?",
+    "q2Desc": "Upload your documents via photo, PDF, or email. Our technology instantly processes the information, categorizes expenses, and provides clear, ready-to-use visual reports.",
+    "q3Title": "Benefits",
+    "q3Desc": "Increase your productivity, reduce human errors to 0%, and keep your finances secure and accessible in the cloud from any device, 24/7.",
+    "mockupsTitle": "An interface designed for you",
+    "mockupsDesc": "Discover what AddInvoices looks like from the inside. Designed to be fast, intuitive, and easy to use on any device.",
+    "finalCtaTitle": "Ready to take your accounting to the next level?",
+    "finalCtaDesc": "Join hundreds of companies that already automate their invoicing.",
+    "finalCtaBtn": "Create my free account",
+    "modulesTitle": "Discover AddInvoices Modules",
+    "modulesDesc": "Everything you need to run your business, all in one place.",
+    "modules": [
+      { "title": "📊 Dashboard", "desc": "Quick control of your business's financial and operational status." },
+      { "title": "🧾 Invoices", "desc": "Core financial module. Create, edit, and send professional invoices instantly." },
+      { "title": "📑 Estimates", "desc": "Formalize agreements and accelerate sales with digital proposals and signatures." },
+      { "title": "📜 Contracts", "desc": "Generate contracts and digital agreements to protect and professionalize your business." },
+      { "title": "🔁 Subscriptions", "desc": "Recurring payments and automatic reminders, ideal for periodic services." },
+      { "title": "💳 Payments", "desc": "Payment registration and complete tracking of your cash flow." },
+      { "title": "💸 Expenses", "desc": "Expense tracking, receipt scanning, and automatic categorization." },
+      { "title": "👥 Clients", "desc": "Client management, interaction history, and information centralization." },
+      { "title": "📦 Catalog", "desc": "Reusable products and services catalog to standardize your operations." },
+      { "title": "🔔 Reminders", "desc": "Automatic reminders to improve collection and reduce forgotten payments." },
+      { "title": "📸 Advances", "desc": "Work documentation with photos and notes, generating professional reports for clients." },
+      { "title": "💳 Tap to Pay", "desc": "Instant on-site payment collection. Process cards or mobile payments in seconds with no extra hardware." },
+      { "title": "🗣️ Translator", "desc": "Eliminate language barriers with live face-to-face translation and asynchronous chat for negotiations." },
+      { "title": "⭐ Reviews", "desc": "Smart review filtering and automatic requests to ensure your business maintains a 5-star Google rating." },
+      { "title": "🪪 Business Cards", "desc": "Generate and share digital business cards with your company logo instantly." },
+      { "title": "💵 Tips", "desc": "Seamlessly accept tips and extra payments when collecting for your services." }
+    ]
   }
 }
