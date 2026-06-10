@@ -10,10 +10,21 @@ export default async function PresentacionFunnel() {
     <div className="min-h-screen w-full relative bg-ad-main pb-24">
       {/* Background styling consistent with main page */}
       <div
-        className="absolute inset-0 z-0 pointer-events-none"
+        className="fixed inset-0 z-0 pointer-events-none"
         style={{
           background:
             "radial-gradient(ellipse 50% 35% at 50% 0%, rgba(226, 232, 240, 0.12), transparent 60%), linear-gradient(135deg, #0A0F2C 0%, #111827 100%)",
+        }}
+      />
+      {/* Waves fixed background for entire page */}
+      <div 
+        className="fixed inset-0 z-0 pointer-events-none"
+        style={{
+          backgroundImage: "url('/waves.png')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          opacity: 0.6
         }}
       />
       
@@ -31,8 +42,10 @@ export default async function PresentacionFunnel() {
         </div>
 
         {/* Video Placeholder (Glassmorphism Container) */}
-        <div className="w-full max-w-5xl mx-auto mb-20 animate-in fade-in zoom-in-95 duration-700 delay-150 fill-mode-both">
-          <div className="relative aspect-video rounded-3xl overflow-hidden bg-black/40 border border-white/10 shadow-[0_0_50px_-12px_rgba(59,130,246,0.3)] backdrop-blur-md group">
+        <div className="relative w-full max-w-6xl mx-auto mb-20 animate-in fade-in zoom-in-95 duration-700 delay-150 fill-mode-both py-12 md:py-24 flex flex-col items-center">
+
+
+          <div className="relative z-10 w-full max-w-5xl aspect-video rounded-3xl overflow-hidden bg-black/40 border border-white/10 shadow-[0_0_50px_-12px_rgba(59,130,246,0.3)] backdrop-blur-md group">
             {/* Aquí el usuario insertará su <iframe> o <video> real. Esto es un placeholder elegante. */}
             <div className="absolute inset-0 flex flex-col items-center justify-center bg-gradient-to-t from-black/80 to-transparent">
               <PlayCircle className="w-20 h-20 text-white/80 group-hover:text-blue-500 transition-colors duration-300 mb-4 cursor-pointer hover:scale-110" />
@@ -43,7 +56,7 @@ export default async function PresentacionFunnel() {
             <div className="absolute bottom-0 right-0 w-16 h-16 border-b-2 border-r-2 border-blue-500/50 rounded-br-3xl opacity-50"></div>
           </div>
           
-          <div className="mt-10 flex justify-center">
+          <div className="relative z-10 mt-10 flex justify-center w-full">
             <a href="https://app.addinvoicesai.com/" className="btn-ad-primary px-10 py-5 rounded-full font-bold text-xl shadow-xl hover:-translate-y-1 transition-all duration-300 flex items-center gap-3">
               {t("ctaPrimary")}
               <TrendingUp className="w-5 h-5" />
