@@ -355,7 +355,7 @@ export default function InvoiceTemplatePage() {
                     </div>
                   </div>
                   <div className="text-right text-[10px] text-gray-400 max-w-[150px]">
-                    This invoice was generated as a sample via AddInvoices free
+                    This invoice was generated as a sample via ADDINVOICES free
                     tools.
                   </div>
                 </div>
@@ -377,7 +377,7 @@ export default function InvoiceTemplatePage() {
             href="https://app.addinvoicesai.com"
             className="inline-block px-10 py-5 btn-ad-primary rounded-2xl font-bold text-center shadow-lg hover:-translate-y-1 transition-all"
           >
-            Start free with AddInvoices →
+            Start free with ADDINVOICES →
           </a>
         </div>
       </main>

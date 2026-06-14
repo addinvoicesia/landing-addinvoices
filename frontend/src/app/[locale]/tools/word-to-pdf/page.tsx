@@ -125,7 +125,6 @@ export default function WordToPDFPage() {
 
   return (
     <div className="min-h-screen w-full relative bg-ad-main font-sans overflow-x-hidden">
-
       <Script
         src="https://cdn.jsdelivr.net/npm/docx-preview@0.3.2/dist/docx-preview.min.js"
         onLoad={() => setScriptsLoaded((prev) => ({ ...prev, docx: true }))}
@@ -322,14 +321,14 @@ export default function WordToPDFPage() {
             Need to send that as a professional invoice?
           </h2>
           <p className="text-ad-secondary text-lg mb-10 max-w-2xl mx-auto leading-relaxed">
-            AddInvoices lets you create, customize, and send invoices as PDF
+            ADDINVOICES lets you create, customize, and send invoices as PDF
             directly to your clients — no Word or manual conversion needed.
           </p>
           <a
             href="https://app.addinvoicesai.com"
             className="inline-block px-10 py-5 btn-ad-primary rounded-2xl font-bold text-center shadow-lg hover:-translate-y-1 transition-all"
           >
-            Try AddInvoices free →
+            Try ADDINVOICES free →
           </a>
         </div>
       </main>

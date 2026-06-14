@@ -1,8 +1,9 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms of Service | AddInvoices",
-  description: "Terms of Service for AddInvoices by AddStrategic LLC. Read our subscription terms, refund policy, promotional offer conditions, and acceptable use guidelines.",
+  title: "Terms of Service | ADDINVOICES",
+  description:
+    "Terms of Service for ADDINVOICES by AddStrategic LLC. Read our subscription terms, refund policy, promotional offer conditions, and acceptable use guidelines.",
   alternates: {
     canonical: "https://www.addinvoicesai.com/terms",
   },

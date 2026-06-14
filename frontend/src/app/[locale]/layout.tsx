@@ -51,7 +51,7 @@ export async function generateMetadata(props: {
       .split(",")
       .map((keyword) => keyword.trim()),
     generator: "ADDSTRATEGIC",
-    applicationName: "AddInvoices",
+    applicationName: "ADDINVOICES",
     authors: [
       {
         name: "Nicolas Forero Quevedo",
@@ -81,7 +81,7 @@ export async function generateMetadata(props: {
       description: t("description"),
       url: canonicalUrl,
       type: "website",
-      siteName: "AddInvoices",
+      siteName: "ADDINVOICES",
       locale: LOCALE_TO_OG[locale],
       images: [
         {

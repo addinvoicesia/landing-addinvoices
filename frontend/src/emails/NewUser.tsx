@@ -28,7 +28,7 @@ export const NewUser = ({ email }: NewUserProps) => (
           style={logo}
         />
         <Text style={paragraph}>
-          A new client submitted the form from the AddInvoices website and wants
+          A new client submitted the form from the ADDINVOICES website and wants
           to get in contact with you!
         </Text>
         <Text style={paragraph}>
@@ -36,7 +36,7 @@ export const NewUser = ({ email }: NewUserProps) => (
         </Text>
 
         <Hr style={hr} />
-        <Text style={footer}>AddInvoicesai.com</Text>
+        <Text style={footer}>ADDINVOICESai.com</Text>
       </Container>
     </Body>
   </Html>

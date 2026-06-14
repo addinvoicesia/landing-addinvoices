@@ -55,7 +55,7 @@ export default function ConversionModal({
               </div>
               <h2 className="text-2xl font-bold text-white mb-2">{title}</h2>
               <p className="text-gray-400 text-sm">
-                Get a free AddInvoices account to:
+                Get a free ADDINVOICES account to:
               </p>
             </div>
 
@@ -64,7 +64,7 @@ export default function ConversionModal({
                 `Save this and all future ${documentType}`,
                 "Send directly to clients by email",
                 "Track payment status automatically",
-                "Remove the AddInvoices watermark",
+                "Remove the ADDINVOICES watermark",
               ].map((item, idx) => (
                 <div key={idx} className="flex items-start gap-3 text-left">
                   <CheckCircle2 className="w-5 h-5 text-blue-500 shrink-0 mt-0.5" />
@@ -87,7 +87,10 @@ export default function ConversionModal({
                 }}
                 className="block w-full text-center text-gray-500 hover:text-gray-300 text-sm transition-colors"
               >
-                or <span className="underline underline-offset-4 decoration-gray-700">Download with watermark</span>
+                or{" "}
+                <span className="underline underline-offset-4 decoration-gray-700">
+                  Download with watermark
+                </span>
               </button>
             </div>
           </motion.div>

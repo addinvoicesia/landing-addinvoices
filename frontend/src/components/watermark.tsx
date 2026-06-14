@@ -9,7 +9,7 @@ export default function Watermark({ level = 1 }: WatermarkProps) {
     return (
       <div className="absolute bottom-2 right-2 pointer-events-none z-50 select-none">
         <div className="text-[8px] md:text-[9px] text-[#2563eb] font-bold bg-white/20 px-2 py-0.5 rounded opacity-50 border border-blue-500/10 backdrop-blur-sm">
-           Generated with AddInvoices · addinvoicesai.com
+          Generated with ADDINVOICES · addinvoicesai.com
         </div>
       </div>
     );
@@ -23,7 +23,7 @@ export default function Watermark({ level = 1 }: WatermarkProps) {
             key={i}
             className="text-[#2563eb] font-semibold text-[18px] whitespace-nowrap opacity-[0.12]"
           >
-            Generated with AddInvoices
+            Generated with ADDINVOICES
           </div>
         ))}
       </div>

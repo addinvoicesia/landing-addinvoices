@@ -162,10 +162,10 @@ export default function TermsPage() {
             <article className="prose prose-invert prose-blue max-w-none prose-p:text-white/70 prose-p:leading-relaxed prose-p:mb-6 prose-strong:text-white prose-strong:font-bold">
               <p>
                 Please read these Terms of Service ("Terms", "Agreement")
-                carefully before using the AddInvoices website, web application,
+                carefully before using the ADDINVOICES website, web application,
                 mobile application, free tools, or any related services
                 (collectively, the "Service") operated by AddStrategic LLC
-                ("AddStrategic", "AddInvoices", "we", "us", or "our").
+                ("AddStrategic", "ADDINVOICES", "we", "us", or "our").
               </p>
               <p>
                 By accessing or using the Service, you confirm that you are at
@@ -189,7 +189,7 @@ export default function TermsPage() {
                 1. Description of Service
               </h2>
               <p>
-                AddInvoices is a cloud-based Software as a Service (SaaS)
+                ADDINVOICES is a cloud-based Software as a Service (SaaS)
                 platform that provides tools for invoicing, payment collection,
                 expense tracking, client management, contract generation,
                 voice-assisted business operations, and related functions. The
@@ -197,15 +197,15 @@ export default function TermsPage() {
               </p>
               <ul className="list-disc pl-6 space-y-2 mb-6 text-white/70">
                 <li>
-                  The AddInvoices web application at app.addinvoicesai.com
+                  The ADDINVOICES web application at app.addinvoicesai.com
                 </li>
-                <li>The AddInvoices marketing website at addinvoicesai.com</li>
+                <li>The ADDINVOICES marketing website at addinvoicesai.com</li>
                 <li>Free browser-based tools at addinvoicesai.com/tools</li>
                 <li>Mobile applications on iOS and Android</li>
-                <li>The AddInvoices Voice Assistant feature</li>
+                <li>The ADDINVOICES Voice Assistant feature</li>
                 <li>
                   Any future products, features, or services offered under the
-                  AddInvoices or AddStrategic brand
+                  ADDINVOICES or AddStrategic brand
                 </li>
               </ul>
 
@@ -265,7 +265,7 @@ export default function TermsPage() {
                 3. Subscription Plans and Billing
               </h2>
               <p>
-                <strong>3.1 Available Plans.</strong> AddInvoices offers the
+                <strong>3.1 Available Plans.</strong> ADDINVOICES offers the
                 following subscription plans:
               </p>
               <ul className="list-disc pl-6 space-y-4 mb-6 text-white/70">
@@ -282,7 +282,7 @@ export default function TermsPage() {
                     AI Pro Plan — $20/month (or discounted annual equivalent):
                   </strong>{" "}
                   Includes everything in Core, plus AI-powered automated
-                  workflows, the AddInvoices AI assistant for managing invoices,
+                  workflows, the ADDINVOICES AI assistant for managing invoices,
                   clients, expenses and more, voice generation features, and
                   premium templates.
                 </li>
@@ -377,7 +377,7 @@ export default function TermsPage() {
               </h2>
               <p>
                 <strong>5.1 Offer Description.</strong> Qualifying new
-                AddInvoices subscribers may receive a complimentary
+                ADDINVOICES subscribers may receive a complimentary
                 professionally designed website ("Promotional Website") built by
                 AddStrategic as part of a limited promotional program.
               </p>
@@ -423,7 +423,7 @@ export default function TermsPage() {
               <p>
                 <strong>6.2 Watermark and Attribution.</strong> Documents
                 generated using Free Tools include a watermark stating
-                "Generated with AddInvoices". To generate documents without
+                "Generated with ADDINVOICES". To generate documents without
                 watermarks, an active paid subscription is required.
               </p>
               <p>
@@ -643,7 +643,7 @@ export default function TermsPage() {
               >
                 20. Contact
               </h2>
-              <p>AddStrategic LLC — AddInvoices</p>
+              <p>AddStrategic LLC — ADDINVOICES</p>
               <ul className="list-none space-y-1 text-white/70">
                 <li>
                   Legal inquiries:{" "}

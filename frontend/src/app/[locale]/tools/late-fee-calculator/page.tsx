@@ -39,7 +39,6 @@ export default function LateFeeCalculatorPage() {
 
   return (
     <div className="min-h-screen w-full relative bg-ad-main font-sans overflow-x-hidden">
-
       <main className="relative z-10 pt-28 pb-20 px-4 md:px-6 max-w-4xl mx-auto">
         {/* Breadcrumb */}
         <nav className="flex items-center space-x-2 text-xs md:text-sm text-ad-secondary mb-8">
@@ -257,14 +256,14 @@ export default function LateFeeCalculatorPage() {
             Spend less time chasing payments
           </h2>
           <p className="text-ad-secondary text-lg mb-10 max-w-2xl mx-auto leading-relaxed">
-            AddInvoices sends automatic payment reminders before invoices go
+            ADDINVOICES sends automatic payment reminders before invoices go
             overdue — so you spend less time calculating late fees.
           </p>
           <a
             href="https://app.addinvoicesai.com"
             className="inline-block px-10 py-5 btn-ad-primary rounded-2xl font-bold text-center shadow-lg hover:-translate-y-1 transition-all"
           >
-            Try AddInvoices free →
+            Try ADDINVOICES free →
           </a>
         </div>
       </main>

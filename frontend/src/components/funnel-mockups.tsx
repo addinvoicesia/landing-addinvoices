@@ -44,10 +44,13 @@ export function FunnelMockups() {
         >
           {/* Double the array for seamless infinite scroll */}
           {[...MOCKUPS, ...MOCKUPS].map((src, index) => (
-            <div key={index} className="relative h-[250px] sm:h-[350px] lg:h-[450px] flex-shrink-0 group">
+            <div
+              key={index}
+              className="relative h-[250px] sm:h-[350px] lg:h-[450px] flex-shrink-0 group"
+            >
               <img
                 src={src}
-                alt={`Mockup AddInvoices ${index}`}
+                alt={`Mockup ADDINVOICES ${index}`}
                 className="h-full w-auto object-contain drop-shadow-[0_25px_40px_rgba(0,0,0,0.4)] group-hover:drop-shadow-[0_30px_50px_rgba(59,130,246,0.2)] transition-all duration-500"
                 loading="lazy"
                 draggable={false}

@@ -153,7 +153,6 @@ const groups = [
 export default function ToolsHubPage() {
   return (
     <div className="min-h-screen w-full relative bg-ad-main font-sans overflow-x-hidden">
-
       <main className="relative z-10 pt-28 pb-32 px-4 md:px-6 max-w-7xl mx-auto">
         {/* Hero Section */}
         <section className="text-center mb-24 relative">
@@ -243,7 +242,7 @@ export default function ToolsHubPage() {
             <div className="relative z-10 max-w-3xl mx-auto space-y-10">
               <h2 className="text-4xl md:text-6xl font-black text-white leading-tight">
                 Tired of manual docs? <br />{" "}
-                <span className="text-blue-500">Upgrade to AddInvoices.</span>
+                <span className="text-blue-500">Upgrade to ADDINVOICES.</span>
               </h2>
               <p className="text-ad-secondary text-xl font-medium max-w-xl mx-auto leading-relaxed">
                 Join thousands of freelancers and agencies who save hours every

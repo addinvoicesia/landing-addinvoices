@@ -45,7 +45,6 @@ export default function VoiceAssistantPage() {
 
   return (
     <div className="min-h-screen w-full relative bg-ad-main font-sans overflow-x-hidden">
-
       <main className="relative z-10 pt-28 pb-20">
         {/* Breadcrumb */}
         <div className="max-w-7xl mx-auto px-4 md:px-6 mb-12">
@@ -65,7 +64,7 @@ export default function VoiceAssistantPage() {
         {/* HERO */}
         <section className="max-w-7xl mx-auto px-4 md:px-6 text-center mb-32 relative">
           <div className="inline-block py-1.5 px-4 rounded-full bg-blue-500/10 text-blue-500 text-[10px] font-bold tracking-widest uppercase mb-6 border border-blue-500/20">
-            Coming to AddInvoices
+            Coming to ADDINVOICES
           </div>
           <h1 className="text-5xl md:text-7xl font-black text-white mb-6 tracking-tight leading-tight">
             Your Voice. <br />
@@ -75,7 +74,7 @@ export default function VoiceAssistantPage() {
           </h1>
           <p className="text-ad-secondary text-lg md:text-xl max-w-2xl mx-auto leading-relaxed mb-10">
             Manage invoices, clients, expenses and contracts without touching a
-            screen. Just speak — AddInvoices listens.
+            screen. Just speak — ADDINVOICES listens.
           </p>
 
           {/* Sound Waveform Animation */}
@@ -149,7 +148,7 @@ export default function VoiceAssistantPage() {
               {[
                 {
                   step: "01",
-                  title: "Open AddInvoices",
+                  title: "Open ADDINVOICES",
                   desc: "Available on any device — Web, iOS, or Android.",
                 },
                 {
@@ -195,7 +194,7 @@ export default function VoiceAssistantPage() {
               </h2>
               <div className="space-y-4">
                 <p className="text-ad-secondary text-lg">
-                  AddInvoices Voice Assistant is available now in the app. No
+                  ADDINVOICES Voice Assistant is available now in the app. No
                   learning curve. No commands to memorize. Just talk.
                 </p>
               </div>
@@ -203,7 +202,7 @@ export default function VoiceAssistantPage() {
                 href="https://app.addinvoicesai.com"
                 className="inline-block px-12 py-6 btn-ad-primary rounded-2xl font-black text-xl shadow-xl shadow-blue-500/20 hover:-translate-y-1 transition-all"
               >
-                Try AddInvoices Free →
+                Try ADDINVOICES Free →
               </a>
             </div>
           </div>
@@ -215,11 +214,11 @@ export default function VoiceAssistantPage() {
       {/* Structured SEO */}
       <head>
         <title>
-          Voice Assistant for Business — Manage Invoices by Voice | AddInvoices
+          Voice Assistant for Business — Manage Invoices by Voice | ADDINVOICES
         </title>
         <meta
           name="description"
-          content="Manage your entire business with your voice. Create invoices, add clients, log expenses, and send reminders — just by speaking. AddInvoices Voice Assistant."
+          content="Manage your entire business with your voice. Create invoices, add clients, log expenses, and send reminders — just by speaking. ADDINVOICES Voice Assistant."
         />
         <link
           rel="canonical"

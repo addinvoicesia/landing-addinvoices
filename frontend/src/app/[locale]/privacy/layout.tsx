@@ -1,8 +1,9 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | AddInvoices",
-  description: "Privacy Policy for AddInvoices. Learn how AddStrategic LLC collects, uses, and protects your personal information.",
+  title: "Privacy Policy | ADDINVOICES",
+  description:
+    "Privacy Policy for ADDINVOICES. Learn how AddStrategic LLC collects, uses, and protects your personal information.",
   alternates: {
     canonical: "https://www.addinvoicesai.com/privacy",
   },

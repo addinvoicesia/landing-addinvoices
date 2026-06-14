@@ -38,7 +38,7 @@ export default function QRCodeGeneratorPage() {
       case "url":
         return url || "https://www.addinvoicesai.com";
       case "text":
-        return text || "AddInvoices";
+        return text || "ADDINVOICES";
       case "email":
         return `mailto:${email}?subject=${encodeURIComponent(emailSubject)}`;
       case "phone":
@@ -113,7 +113,7 @@ export default function QRCodeGeneratorPage() {
     ctx.font = "10px Inter, sans-serif";
     ctx.textAlign = "center";
     ctx.fillText(
-      "Generated with AddInvoices · addinvoicesai.com",
+      "Generated with ADDINVOICES · addinvoicesai.com",
       finalCanvas.width / 2,
       canvas.height + 18,
     );
@@ -121,7 +121,7 @@ export default function QRCodeGeneratorPage() {
     const link = document.createElement("a");
     const filename = `QR_${getQRValue()
       .substring(0, 20)
-      .replace(/[^a-z0-9]/gi, "_")}_AddInvoices.png`;
+      .replace(/[^a-z0-9]/gi, "_")}_ADDINVOICES.png`;
     link.download = filename;
     link.href = finalCanvas.toDataURL("image/png");
     link.click();
@@ -398,7 +398,7 @@ export default function QRCodeGeneratorPage() {
                     href="https://app.addinvoicesai.com"
                     className="text-[10px] font-bold text-blue-600 hover:underline"
                   >
-                    Try this in AddInvoices →
+                    Try this in ADDINVOICES →
                   </a>
                 </div>
               </div>
@@ -456,14 +456,14 @@ export default function QRCodeGeneratorPage() {
             Add a payment QR to every invoice automatically.
           </h2>
           <p className="text-ad-secondary text-lg mb-10 max-w-2xl mx-auto">
-            With AddInvoices, your clients can pay with one scan. We generate
+            With ADDINVOICES, your clients can pay with one scan. We generate
             unique tracking links for every bill.
           </p>
           <a
             href="https://app.addinvoicesai.com"
             className="inline-block px-10 py-5 btn-ad-primary rounded-2xl font-bold text-center shadow-lg hover:-translate-y-1 transition-all"
           >
-            Try AddInvoices free →
+            Try ADDINVOICES free →
           </a>
         </div>
       </main>

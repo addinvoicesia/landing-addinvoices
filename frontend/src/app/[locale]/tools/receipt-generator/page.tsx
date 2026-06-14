@@ -487,7 +487,7 @@ export default function ReceiptGeneratorPage() {
             Create receipts, invoices, and contracts — all in one place.
           </h2>
           <p className="text-ad-secondary text-lg mb-10 max-w-2xl mx-auto">
-            With AddInvoices, every payment you receive is tracked
+            With ADDINVOICES, every payment you receive is tracked
             automatically. Stop manual work and start billing with your voice.
           </p>
           <a

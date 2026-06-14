@@ -150,14 +150,14 @@ export default function PrivacyPage() {
           <div className="flex-1 max-w-[680px]">
             <article className="prose prose-invert prose-blue max-w-none prose-p:text-white/70 prose-p:leading-relaxed prose-p:mb-6 prose-strong:text-white prose-strong:font-bold">
               <p>
-                AddStrategic LLC ("AddStrategic", "AddInvoices", "we", "us", or
+                AddStrategic LLC ("AddStrategic", "ADDINVOICES", "we", "us", or
                 "our") is committed to protecting your privacy. This Privacy
                 Policy describes what personal information we collect, how we
                 use it, with whom we share it, and what rights you have with
                 respect to it.
               </p>
               <p>
-                This policy applies to all users of the AddInvoices web
+                This policy applies to all users of the ADDINVOICES web
                 application, mobile application, marketing website, and free
                 browser-based tools (collectively, the "Service"). By using the
                 Service, you agree to the collection and use of your information
@@ -375,7 +375,7 @@ export default function PrivacyPage() {
               >
                 11. Contact Us
               </h2>
-              <p>AddStrategic LLC — AddInvoices</p>
+              <p>AddStrategic LLC — ADDINVOICES</p>
               <ul className="list-none space-y-1 text-white/70">
                 <li>
                   Privacy inquiries:{" "}

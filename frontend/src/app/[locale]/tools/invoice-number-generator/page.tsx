@@ -66,14 +66,14 @@ export default function InvoiceNumberGeneratorPage() {
     const csvContent =
       "Invoice Number\n" +
       seq.join("\n") +
-      "\n\n# Generated with AddInvoices · addinvoicesai.com";
+      "\n\n# Generated with ADDINVOICES · addinvoicesai.com";
     const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8;" });
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.href = url;
     link.setAttribute(
       "download",
-      `Invoice_Numbers_${prefix.replace(/[^a-z0-9]/gi, "_")}_AddInvoices.csv`,
+      `Invoice_Numbers_${prefix.replace(/[^a-z0-9]/gi, "_")}_ADDINVOICES.csv`,
     );
     link.click();
   };
@@ -86,7 +86,6 @@ export default function InvoiceNumberGeneratorPage() {
 
   return (
     <div className="min-h-screen w-full relative bg-ad-main font-sans overflow-x-hidden">
-
       <main className="relative z-10 pt-28 pb-20 px-4 md:px-6 max-w-6xl mx-auto">
         {/* Breadcrumb */}
         <nav className="flex items-center space-x-2 text-xs md:text-sm text-ad-secondary mb-8">
@@ -320,7 +319,7 @@ export default function InvoiceNumberGeneratorPage() {
             <div className="bg-emerald-500/5 border border-emerald-500/10 rounded-2xl p-6 flex gap-4">
               <Info className="w-5 h-5 text-emerald-500 shrink-0" />
               <p className="text-[11px] text-emerald-500/80 leading-relaxed font-medium">
-                AddInvoices automatically increments your invoice numbers for
+                ADDINVOICES automatically increments your invoice numbers for
                 you. Start with any format and we'll handle the rest.
               </p>
             </div>
@@ -385,7 +384,7 @@ export default function InvoiceNumberGeneratorPage() {
             Your numbering system is ready. Now start billing.
           </h2>
           <p className="text-ad-secondary text-lg mb-10 max-w-2xl mx-auto leading-relaxed">
-            AddInvoices auto-generates sequential, professional invoice numbers
+            ADDINVOICES auto-generates sequential, professional invoice numbers
             for you based on any system. Focus on your work, not the admin.
           </p>
           <a

@@ -42,7 +42,7 @@ export function drawWatermark(doc: any) {
     doc.setFontSize(22);
     doc.setFont("helvetica", "bold");
 
-    const text = "Generated with AddInvoices";
+    const text = "Generated with ADDINVOICES";
 
     // 3 center positions across the document
     doc.text(text, pageWidth / 2, pageHeight * 0.25, {
@@ -68,7 +68,7 @@ export function drawSmallAttribution(doc: any) {
     doc.setFontSize(8);
     doc.setFont("helvetica", "normal");
 
-    const text = "Generated with AddInvoices · addinvoicesai.com";
+    const text = "Generated with ADDINVOICES · addinvoicesai.com";
     const pageWidth = doc.internal.pageSize.getWidth();
     const pageHeight = doc.internal.pageSize.getHeight();
 

@@ -128,7 +128,7 @@ export default function ImageToPDFPage() {
     drawSmallAttribution(doc);
 
     doc.save(
-      `Images_to_PDF_AddInvoices_${new Date().toISOString().split("T")[0]}.pdf`,
+      `Images_to_PDF_ADDINVOICES_${new Date().toISOString().split("T")[0]}.pdf`,
     );
     setIsProcessing(false);
   };
@@ -346,7 +346,7 @@ export default function ImageToPDFPage() {
                 </h5>
                 <p className="text-[11px] text-white/50 leading-relaxed font-medium">
                   Combine your scanned receipts into a single PDF to easily
-                  track them as expenses in AddInvoices.
+                  track them as expenses in ADDINVOICES.
                 </p>
               </div>
             </div>
@@ -391,7 +391,7 @@ export default function ImageToPDFPage() {
             Converted a receipt? Now track it as an expense.
           </h2>
           <p className="text-ad-secondary text-lg mb-10 max-w-2xl mx-auto leading-relaxed">
-            AddInvoices lets you log and categorize expenses, attach receipts,
+            ADDINVOICES lets you log and categorize expenses, attach receipts,
             and prepare for tax season automatically. No more shoeboxes of
             paper.
           </p>
@@ -399,7 +399,7 @@ export default function ImageToPDFPage() {
             href="https://app.addinvoicesai.com"
             className="inline-block px-10 py-5 btn-ad-primary rounded-2xl font-bold text-center shadow-lg hover:-translate-y-1 transition-all"
           >
-            Try AddInvoices free →
+            Try ADDINVOICES free →
           </a>
         </div>
       </main>

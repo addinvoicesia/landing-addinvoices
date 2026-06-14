@@ -348,7 +348,7 @@ export default function ContractGeneratorPage() {
           <p className="text-[11px] text-amber-500/80 leading-relaxed italic">
             <strong>Legal Disclaimer:</strong> This contract template is
             provided for reference purposes only and does not constitute legal
-            advice. AddInvoices is not a law firm. For legally binding
+            advice. ADDINVOICES is not a law firm. For legally binding
             agreements, we recommend consulting with a licensed attorney in your
             jurisdiction.
           </p>
@@ -360,7 +360,7 @@ export default function ContractGeneratorPage() {
             Connect contracts to invoices.
           </h2>
           <p className="text-ad-secondary text-lg mb-10 max-w-2xl mx-auto leading-relaxed">
-            With AddInvoices, your contracts and invoices live in the same
+            With ADDINVOICES, your contracts and invoices live in the same
             place. Create a contract, collect a signature, and get paid.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -368,7 +368,7 @@ export default function ContractGeneratorPage() {
               href="https://app.addinvoicesai.com"
               className="px-10 py-5 btn-ad-primary rounded-2xl font-bold transition-all shadow-lg hover:-translate-y-1"
             >
-              Try AddInvoices free →
+              Try ADDINVOICES free →
             </a>
             <a
               href="https://www.addinvoicesai.com/#features"

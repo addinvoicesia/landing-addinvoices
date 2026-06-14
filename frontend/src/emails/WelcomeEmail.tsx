@@ -16,7 +16,7 @@ export const WelcomeEmail = () => (
   <Html>
     <Head />
     <Preview>
-      AddInvoices will get in touch with you as soon as possible.
+      ADDINVOICES will get in touch with you as soon as possible.
     </Preview>
     <Body style={main}>
       <Container style={container}>
@@ -28,13 +28,13 @@ export const WelcomeEmail = () => (
         />
         <Text style={paragraph}>Hi,</Text>
         <Text style={paragraph}>
-          Thank you for your interest in AddInvoices. We will launch the product
+          Thank you for your interest in ADDINVOICES. We will launch the product
           soon and you will be the first to know. Also, you will be able to get
           early access to discounts, new features and exclusive offers for
-          AddInvoices.
+          ADDINVOICES.
         </Text>
         <Hr style={hr} />
-        <Text style={footer}>AddInvoicesai.com</Text>
+        <Text style={footer}>ADDINVOICESai.com</Text>
       </Container>
     </Body>
   </Html>

@@ -192,7 +192,7 @@ export default function InvoiceByVoicePage() {
           </h1>
           <p className="text-ad-secondary text-lg max-w-2xl mx-auto">
             Type a command in plain English. See your invoice appear instantly.
-            This is how AddInvoices works.
+            This is how ADDINVOICES works.
           </p>
         </div>
 
@@ -381,7 +381,7 @@ export default function InvoiceByVoicePage() {
               href="https://app.addinvoicesai.com"
               className="px-10 py-5 bg-white text-blue-600 rounded-2xl font-bold shadow-xl hover:-translate-y-1 transition-all"
             >
-              Try AddInvoices free →
+              Try ADDINVOICES free →
             </a>
           </div>
         </div>
