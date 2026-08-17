@@ -3,6 +3,7 @@
 import type { ReactNode } from "react";
 import { motion } from "framer-motion";
 import { Badge } from "@/components/ui/badge";
+import { StoreBadges } from "@/components/store-badges";
 import { Sparkles } from "lucide-react";
 
 export type HeroProps = {
@@ -14,6 +15,7 @@ export type HeroProps = {
   seoTagline: string;
   googlePlayAlt: string;
   appStoreAlt: string;
+  launchingSoon: string;
 };
 
 export default function Hero({
@@ -25,6 +27,7 @@ export default function Hero({
   seoTagline,
   googlePlayAlt,
   appStoreAlt,
+  launchingSoon,
 }: HeroProps) {
   return (
     <>
@@ -117,18 +120,12 @@ export default function Hero({
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.3, delay: 0.25 }}
             >
-              <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
-                <img
-                  src="/playstore.webp"
-                  alt={googlePlayAlt}
-                  className="h-12 w-auto cursor-pointer hover:opacity-80 transition-opacity"
-                />
-                <img
-                  src="/appstore.webp"
-                  alt={appStoreAlt}
-                  className="h-12 w-auto cursor-pointer hover:opacity-80 transition-opacity"
-                />
-              </div>
+              <StoreBadges
+                title={launchingSoon}
+                googlePlayAlt={googlePlayAlt}
+                appStoreAlt={appStoreAlt}
+                className="mt-8"
+              />
             </motion.div>
           </div>
         </div>

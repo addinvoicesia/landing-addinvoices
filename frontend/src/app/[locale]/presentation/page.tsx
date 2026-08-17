@@ -1,10 +1,18 @@
 import { FunnelMockups } from "@/components/funnel-mockups";
 import { ModulesCarousel } from "@/components/modules-carousel";
+import {
+  InstallAppSection,
+  type InstallPlatform,
+} from "@/components/install-app-section";
 import { CheckCircle2, TrendingUp, ShieldCheck } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 
 export default async function PresentacionFunnel() {
   const t = await getTranslations("Presentation");
+  const tHome = await getTranslations("Homepage");
+  const installPlatforms = tHome.raw(
+    "InstallApp.platforms",
+  ) as InstallPlatform[];
 
   return (
     <div className="min-h-screen w-full relative bg-ad-main pb-24">
@@ -69,6 +77,20 @@ export default async function PresentacionFunnel() {
               <TrendingUp className="w-5 h-5" />
             </a>
           </div>
+        </div>
+
+        <div className="w-full">
+          <InstallAppSection
+            badge={tHome("InstallApp.badge")}
+            title={tHome("InstallApp.title")}
+            subtitle={tHome("InstallApp.subtitle")}
+            videoTitle={tHome("InstallApp.videoTitle")}
+            videoPlayLabel={tHome("InstallApp.videoPlayLabel")}
+            platforms={installPlatforms}
+            launchingSoon={tHome("InstallApp.launchingSoon")}
+            googlePlayAlt={tHome("Hero.googlePlayAlt")}
+            appStoreAlt={tHome("Hero.appStoreAlt")}
+          />
         </div>
 
         {/* Explicación de qué es y cómo funciona */}

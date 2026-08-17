@@ -37,6 +37,38 @@
       "googlePlayAlt": "Consíguelo en Google Play",
       "appStoreAlt": "Descargar en App Store"
     },
+    "InstallApp": {
+      "badge": "Instálala en tu teléfono",
+      "title": "Lleva ADDINVOICES a Android e iOS",
+      "subtitle": "Añade la web app a tu pantalla de inicio en segundos. Mira el tutorial rápido y sigue los pasos de tu teléfono.",
+      "videoTitle": "Cómo descargar ADDINVOICES en segundos",
+      "videoPlayLabel": "Reproducir el tutorial de instalación de ADDINVOICES",
+      "launchingSoon": "Próximamente",
+      "platforms": [
+        {
+          "id": "android",
+          "name": "Android",
+          "summary": "En Chrome puedes instalar ADDINVOICES como una web app. Queda en tu pantalla de inicio y se abre a pantalla completa, como una app nativa, sin esperar a Play Store.",
+          "steps": [
+            "Abre Chrome y entra a app.addinvoicesai.com",
+            "Toca el menú de tres puntos en la esquina superior derecha",
+            "Elige Instalar aplicación o Añadir a pantalla de inicio",
+            "Confirma y abre ADDINVOICES desde tu pantalla de inicio"
+          ]
+        },
+        {
+          "id": "ios",
+          "name": "iPhone y iPad",
+          "summary": "Safari puede fijar ADDINVOICES en tu pantalla de inicio para que se abra en su propia ventana, sin la barra del navegador, con la misma sensación que una app de App Store.",
+          "steps": [
+            "Abre Safari y entra a app.addinvoicesai.com",
+            "Toca el botón Compartir en la parte inferior de la pantalla",
+            "Desplázate y toca Añadir a pantalla de inicio",
+            "Toca Añadir y abre ADDINVOICES desde tu pantalla de inicio"
+          ]
+        }
+      ]
+    },
     "Sponsors": {
       "title": "Empresas que confían en ADDSTRATEGIC",
       "subtitle": "Únete a las empresas líderes que ya usan nuestra IA",

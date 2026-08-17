@@ -37,6 +37,38 @@
       "googlePlayAlt": "Get it on Google Play",
       "appStoreAlt": "Download on the App Store"
     },
+    "InstallApp": {
+      "badge": "Install on your phone",
+      "title": "Get ADDINVOICES on Android and iOS",
+      "subtitle": "Add the web app to your home screen in seconds. Watch the short tutorial, then follow the steps for your phone.",
+      "videoTitle": "How to download ADDINVOICES in seconds",
+      "videoPlayLabel": "Play the ADDINVOICES install tutorial",
+      "launchingSoon": "Launching soon",
+      "platforms": [
+        {
+          "id": "android",
+          "name": "Android",
+          "summary": "On Chrome, you can install ADDINVOICES as a web app. It sits on your home screen and opens full-screen, like a native app — no Play Store wait required.",
+          "steps": [
+            "Open Chrome and go to app.addinvoicesai.com",
+            "Tap the three-dot menu in the top-right corner",
+            "Choose Install app or Add to Home screen",
+            "Confirm, then launch ADDINVOICES from your home screen"
+          ]
+        },
+        {
+          "id": "ios",
+          "name": "iPhone & iPad",
+          "summary": "Safari can pin ADDINVOICES to your home screen so it opens in its own window, without the browser chrome — the same feel as an App Store app.",
+          "steps": [
+            "Open Safari and go to app.addinvoicesai.com",
+            "Tap the Share button at the bottom of the screen",
+            "Scroll down and tap Add to Home Screen",
+            "Tap Add, then open ADDINVOICES from your home screen"
+          ]
+        }
+      ]
+    },
     "Sponsors": {
       "title": "Companies that trust ADDSTRATEGIC",
       "subtitle": "Join the leading companies already using our AI",

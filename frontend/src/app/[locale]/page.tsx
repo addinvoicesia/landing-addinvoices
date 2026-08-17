@@ -2,6 +2,10 @@ import Hero from "@/components/home/hero";
 import Features, {
   type FeatureCardCopy,
 } from "@/components/features";
+import {
+  InstallAppSection,
+  type InstallPlatform,
+} from "@/components/install-app-section";
 import { TestimonialsSection } from "@/components/testimonials";
 import { NewReleasePromo } from "@/components/new-release-promo";
 import { FAQSection } from "@/components/faq-section";
@@ -19,6 +23,7 @@ import { getTranslations } from "next-intl/server";
 export default async function Home() {
   const t = await getTranslations("Homepage");
 
+  const installPlatforms = t.raw("InstallApp.platforms") as InstallPlatform[];
   const featureCards = t.raw("Features.cards") as FeatureCardCopy[];
   const whyHighlights = t.raw("WhyChoose.highlights") as WhyChooseHighlight[];
   const subscriptionPlans = t.raw(
@@ -51,6 +56,19 @@ export default async function Home() {
         ctaEarlyAccess={t("Hero.ctaEarlyAccess")}
         ctaPricing={t("Hero.ctaPricing")}
         seoTagline={t("Hero.seoTagline")}
+        googlePlayAlt={t("Hero.googlePlayAlt")}
+        appStoreAlt={t("Hero.appStoreAlt")}
+        launchingSoon={t("InstallApp.launchingSoon")}
+      />
+
+      <InstallAppSection
+        badge={t("InstallApp.badge")}
+        title={t("InstallApp.title")}
+        subtitle={t("InstallApp.subtitle")}
+        videoTitle={t("InstallApp.videoTitle")}
+        videoPlayLabel={t("InstallApp.videoPlayLabel")}
+        platforms={installPlatforms}
+        launchingSoon={t("InstallApp.launchingSoon")}
         googlePlayAlt={t("Hero.googlePlayAlt")}
         appStoreAlt={t("Hero.appStoreAlt")}
       />
